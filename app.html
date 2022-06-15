@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Cookie&family=Dancing+Script:wght@600&family=Lexend+Deca:wght@500&family=Noto+Sans:wght@300&family=Open+Sans:wght@400;500&family=Russo+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/597098b101.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./app.css">
+    <title>My TODO lIST</title>
+</head>
+<body>
+    <div class="container">
+        <img src="./todoImage.svg" alt="svg todo image">
+        <h1>Hello Queendoline</h1>
+        <p><em>What would you like to do today?</em></p>
+        <div class="wrapper">
+            <div class="static-text">We Hope you will be</div>
+            <ul class="dynamic-text">
+                <li><span>Productive</span></li>
+                <li><span>Energetic</span></li>
+                <li><span>Efficient</span></li>
+                <li><span>Consistent</span></li>
+            </ul>
+        </div>
+       
+        <h3>Tasks</h3>
+        <div class="input-div">
+        <input type="text" id="todos" class="todo_items" placeholder="What's up for today">
+        <button class="input-btn">Add</button>
+        </div>
+        <div id="tasks-container">
+        <div class="tasks">Wash my clothes today <button class="remove-task-btn">remove</button></div>
+        </div>
+    </div>
+    
+
+    <script src="./app.js"></script>
+</body>
+</html>
